@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg ="services_quiz"
+        type="move_bb8_in_square_custom.py"
+        name="move_bb8_in_square_custom"
+        output="screen">
+  </node>
+
+</launch>
